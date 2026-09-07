@@ -1,102 +1,13 @@
----
-lang: zh-CN
-title: 美国美债危机雷达 · 2026--2030
-viewport: width=device-width,initial-scale=1
----
-
-::: wrap
-::: lang
-[中文](../zh/)[English](../en/)
-
-::: eyebrow
-US TREASURY CRISIS RADAR · 2026--2030
-
 # 不要预测"美债什么时候崩"
-
-::: sub
 真正应该监测的是：美国什么时候从**"有能力发行大量债务"**进入**"必须付出越来越高的价格才能发行新增债务"**。
-
-::: notice
 **核心原则：**40万亿美元以上的债务本身不是危机信号。雷达关注**融资价格 +
 期限溢价 + 财政现金流 + 经济增长 + 边际需求**是否同时恶化。
 
-::: grid
-::: card
-::: label
-10年期美债收益率
-
-::: metric
-4.8%
-
-::: status
-[]{.dot .yellow}监测
-
-::: card
-::: label
-期限溢价
-
-::: metric
-0.6%
-
-::: status
-[]{.dot .green}正常
-
-::: card
-::: label
-利息 / 财政收入
-
-::: metric
-18%
-
-::: status
-[]{.dot .yellow}财政压力
-
-::: card
-::: label
-g − r
-
-::: metric
-+0.3%
-
-::: status
-[]{.dot .yellow}接近临界
-
-::: card
-::: label
-外国需求
-
-::: metric
-稳定
-
-::: status
-[]{.dot .green}正常
-
-::: card
-::: label
-弗格森极限
-
-::: metric
-Crossed
-
-::: status
-[]{.dot .purple}战略信号
-
-::: panel
-::: label
 综合压力指数（示例基线，非实时读数）
-
-::: score
 32[ / 100]{style="font-size:20px;color:var(--muted)"}
-
-::: bar
-::: fill
 
 **Level 1 · Fiscal 财政压力** ---
 债务与利息负担值得持续监测，但不能据此判断"美债危机已经发生"。
-
-::: tabs
-
-::: panel
 ## 核心监测框架
 
   指标                  为什么重要                     绿色      黄色           橙色                红色
@@ -108,11 +19,7 @@ Crossed
   **外国需求**          全球边际美债需求是否恶化       稳定/up   Mild decline   Sustained decline   Rapid net outflow
 
 这些是分析型预警区间，不是官方危机界线。趋势、持续时间和指标共振比单一读数更重要。
-
-::: panel
 ## "危机三角形"
-
-::: triangle
 **期限溢价 ↑** + **g − r ↓** + **利息 / 财政收入 ↑**
 
 如果三者同时恶化，问题就从"债务很多"转向"新增债务的边际价格越来越高"。
@@ -126,27 +33,23 @@ exceed defense spending.
 
 它适合作为**国家能力 /
 财政容量信号**，但不是美债违约风险阈值，也不能机械地解释为"衰退已经开始"。
-
-::: panel
-## 2026--2030监测表
+## 2026–2030监测表
 
   指标                  Frequency            Displayed value                                Status                                  Source
   --------------------- -------------------- ---------------------------------------------- --------------------------------------- -------------------------------------------------------------------------------------------------------------
-  债务余额              每日                 Loading...                                     [规模监测]{.badge .byellow}             [Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/){target="_blank"}
-  10Y Treasury          每日                 4.8% (illustrative)                            [监测]{.badge .byellow}                 [美国财政部](https://home.treasury.gov/resource-center/data-chart-center/interest-rates){target="_blank"}
-  期限溢价              每日                 0.6% (illustrative)                            [正常]{.badge .bgreen}                  [纽约联储](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs){target="_blank"}
-  Net 利息 / 财政收入   月度/季度            18% (illustrative)                             [财政压力]{.badge .byellow}             [财政部月度财务报表](https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/){target="_blank"}
-  债务 / GDP            季度                 \~100%+ baseline                               [Long-term pressure]{.badge .borange}   [CBO](https://www.cbo.gov/publication/62105){target="_blank"}
-  初级赤字 / GDP        季度                 基准情景监测                                   [监测]{.badge .byellow}                 [CBO](https://www.cbo.gov/publication/62105){target="_blank"}
-  外国美债需求          每月                 需要结合TIC判断                                [监测]{.badge .byellow}                 [Treasury TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system){target="_blank"}
-  弗格森极限            Fiscal / strategic   Crossed in 2024 under Ferguson\'s definition   [战略信号]{.badge .bpurple}             [Hoover Institution](https://www.hoover.org/research/fergusons-law){target="_blank"}
+  债务余额              每日                 Loading...                                     [规模监测]{.badge .byellow}             [Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/)
+  10Y Treasury          每日                 4.8% (illustrative)                            [监测]{.badge .byellow}                 [美国财政部](https://home.treasury.gov/resource-center/data-chart-center/interest-rates)
+  期限溢价              每日                 0.6% (illustrative)                            [正常]{.badge .bgreen}                  [纽约联储](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs)
+  Net 利息 / 财政收入   月度/季度            18% (illustrative)                             [财政压力]{.badge .byellow}             [财政部月度财务报表](https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/)
+  债务 / GDP            季度                 \~100%+ baseline                               [Long-term pressure]{.badge .borange}   [CBO](https://www.cbo.gov/publication/62105)
+  初级赤字 / GDP        季度                 基准情景监测                                   [监测]{.badge .byellow}                 [CBO](https://www.cbo.gov/publication/62105)
+  外国美债需求          每月                 需要结合TIC判断                                [监测]{.badge .byellow}                 [Treasury TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system)
+  弗格森极限            Fiscal / strategic   Crossed in 2024 under Ferguson\'s definition   [战略信号]{.badge .bpurple}             [Hoover Institution](https://www.hoover.org/research/fergusons-law)
 
 刷新美债余额
 
 Treasury Debt to the
 Penny可在浏览器中实时抓取。其他指标在多源数据管道完成前，均明确标为示例/参考值。
-
-::: panel
 ## 不要预测"美债什么时候崩"：真正应该监测融资价格
 
 ### 摘要
@@ -212,8 +115,6 @@ marginal demand ↓** is more informative than any single indicator.
 ### 结论
 
 > 真正值得等待的不是"崩盘日"，而是债务边际价格持续上升，并且财政承受能力同步恶化的拐点。
-
-::: panel
 ## 方法论
 
 1.  **Debt stock:** 债务有多大？
@@ -232,32 +133,28 @@ The score is a research framework, not an official risk measure or
 investment signal. 弗格森极限 is kept outside the composite because it
 measures strategic-fiscal capacity rather than marginal Treasury
 pricing.
-
-::: panel
 ## 权威数据源
 
 -   [美国财政部 Fiscal
-    Data](https://fiscaldata.treasury.gov/){target="_blank"} --- debt,
+    Data](https://fiscaldata.treasury.gov/) --- debt,
     rates and fiscal data.
 -   [CBO 2026--2036 Budget and Economic
-    Outlook](https://www.cbo.gov/publication/62105){target="_blank"} ---
+    Outlook](https://www.cbo.gov/publication/62105) ---
     deficit, debt and interest baseline. CBO projects debt held by the
     public rising from 101% of GDP in 2026 to 120% in 2036, with net
     interest rising from 3.3% to 4.6% of GDP.
 -   [纽约联储 Treasury
-    期限溢价](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs){target="_blank"}
+    期限溢价](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs)
     --- term-premium estimates.
 -   [Treasury
-    TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system){target="_blank"}
+    TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system)
     --- foreign portfolio flows and holdings.
 -   [Hoover Institution --- Ferguson's
-    Law](https://www.hoover.org/research/fergusons-law){target="_blank"}
+    Law](https://www.hoover.org/research/fergusons-law)
     --- primary institutional source for Ferguson's Law and the
     弗格森极限.
 -   [Ferguson's Law working
-    paper](https://www.hoover.org/sites/default/files/research/docs/fergusons-law.pdf){target="_blank"}
+    paper](https://www.hoover.org/sites/default/files/research/docs/fergusons-law.pdf)
     --- debt service, military spending and fiscal limits of power.
-
-::: footer
 美国财政部 Crisis Radar · 研究版 · 2026-09-06 ·
 仅用于研究与教育，不构成投资建议。

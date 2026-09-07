@@ -1,107 +1,35 @@
----
-lang: en
-title: U.S. Treasury Crisis Radar · 2026--2030
-viewport: width=device-width,initial-scale=1
----
-
-::: wrap
-::: lang
-[中文](../zh/)[Home](../)
-
-::: eyebrow
-US TREASURY CRISIS RADAR · 2026--2030
-
 # Do not predict "when Treasuries will collapse."
-
-::: sub
 Monitor when the United States moves from **being able to issue large
 amounts of debt** to **having to pay increasingly higher prices to issue
 new debt**.
-
-::: notice
 **Core principle:** \$40T+ of debt is not, by itself, a crisis signal.
 The radar watches whether **financing price + term premium + fiscal cash
 flow + growth + marginal demand** deteriorate together.
-
-::: grid
-::: card
-::: label
 10Y Treasury Yield
-
-::: metric
 4.8%
-
-::: status
-[]{.dot .yellow}Monitor
-
-::: card
-::: label
+Monitor
 Term Premium
-
-::: metric
 0.6%
-
-::: status
-[]{.dot .green}Normal
-
-::: card
-::: label
+Normal
 Interest / Revenue
-
-::: metric
 18%
-
-::: status
-[]{.dot .yellow}Pressure
-
-::: card
-::: label
+Pressure
 g − r
-
-::: metric
 +0.3%
-
-::: status
-[]{.dot .yellow}Near threshold
-
-::: card
-::: label
+Near threshold
 Foreign Demand
-
-::: metric
 Stable
-
-::: status
-[]{.dot .green}Normal
-
-::: card
-::: label
+Normal
 Ferguson Limit
-
-::: metric
 Crossed
-
-::: status
-[]{.dot .purple}Strategic signal
-
-::: panel
-::: label
+Strategic signal
 Composite pressure index (illustrative baseline, not a live reading)
-
-::: score
 32[ / 100]{style="font-size:20px;color:var(--muted)"}
-
-::: bar
-::: fill
 
 **Level 1 · Fiscal Pressure** --- Debt and interest costs deserve
 monitoring, but this does not establish that a Treasury crisis has
 occurred.
-
-::: tabs
-
-::: panel
-## Core monitoring framework
+## Core Monitoring Framework
 
   Indicator                Why it matters                                            Green       Yellow         Orange              Red
   ------------------------ --------------------------------------------------------- ----------- -------------- ------------------- ---------------------
@@ -114,17 +42,13 @@ occurred.
 These are analyst-created alert bands, not official crisis thresholds.
 Trend, persistence and cross-indicator confirmation matter more than any
 single reading.
-
-::: panel
-## The "crisis triangle"
-
-::: triangle
+## The Crisis Triangle
 **Term Premium ↑** + **g − r ↓** + **Interest / Revenue ↑**
 
 If all three deteriorate together, the problem is shifting from "there
 is a lot of debt" toward "the marginal price of new debt is rising."
 
-## Ferguson Limit --- strategic-fiscal indicator
+## Ferguson Limit — Strategic-Fiscal Indicator
 
 Historian Niall Ferguson proposed "Ferguson's Law": when a great power
 spends more on debt servicing than on defense, it risks ceasing to be a
@@ -135,29 +59,25 @@ This is useful as a **national-power / fiscal-capacity signal**, but it
 is not the same thing as a Treasury default-risk threshold. It should
 not be interpreted as a mechanical prediction that decline has already
 begun.
-
-::: panel
-## 2026--2030 monitoring table
+## 2026–2030 Monitoring Table
 
   Indicator                 Frequency            Displayed value                                Status                                  Source
   ------------------------- -------------------- ---------------------------------------------- --------------------------------------- --------------------------------------------------------------------------------------------------------------
-  Debt Outstanding          Daily                Loading...                                     [Scale]{.badge .byellow}                [Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/){target="_blank"}
-  10Y Treasury              Daily                4.8% (illustrative)                            [Monitor]{.badge .byellow}              [U.S. Treasury](https://home.treasury.gov/resource-center/data-chart-center/interest-rates){target="_blank"}
-  Term Premium              Daily                0.6% (illustrative)                            [Normal]{.badge .bgreen}                [New York Fed](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs){target="_blank"}
-  Net Interest / Revenue    Monthly/Quarterly    18% (illustrative)                             [Pressure]{.badge .byellow}             [Treasury MTS](https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/){target="_blank"}
-  Debt / GDP                Quarterly            \~100%+ baseline                               [Long-term pressure]{.badge .borange}   [CBO](https://www.cbo.gov/publication/62105){target="_blank"}
-  Primary Deficit / GDP     Quarterly            Baseline monitoring                            [Monitor]{.badge .byellow}              [CBO](https://www.cbo.gov/publication/62105){target="_blank"}
-  Foreign Treasury Demand   Monthly              Requires TIC analysis                          [Monitor]{.badge .byellow}              [Treasury TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system){target="_blank"}
-  Ferguson Limit            Fiscal / strategic   Crossed in 2024 under Ferguson\'s definition   [Strategic signal]{.badge .bpurple}     [Hoover Institution](https://www.hoover.org/research/fergusons-law){target="_blank"}
+  Debt Outstanding          Daily                Loading...                                     [Scale]{.badge .byellow}                [Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/)
+  10Y Treasury              Daily                4.8% (illustrative)                            [Monitor]{.badge .byellow}              [U.S. Treasury](https://home.treasury.gov/resource-center/data-chart-center/interest-rates)
+  Term Premium              Daily                0.6% (illustrative)                            [Normal]{.badge .bgreen}                [New York Fed](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs)
+  Net Interest / Revenue    Monthly/Quarterly    18% (illustrative)                             [Pressure]{.badge .byellow}             [Treasury MTS](https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/)
+  Debt / GDP                Quarterly            \~100%+ baseline                               [Long-term pressure]{.badge .borange}   [CBO](https://www.cbo.gov/publication/62105)
+  Primary Deficit / GDP     Quarterly            Baseline monitoring                            [Monitor]{.badge .byellow}              [CBO](https://www.cbo.gov/publication/62105)
+  Foreign Treasury Demand   Monthly              Requires TIC analysis                          [Monitor]{.badge .byellow}              [Treasury TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system)
+  Ferguson Limit            Fiscal / strategic   Crossed in 2024 under Ferguson\'s definition   [Strategic signal]{.badge .bpurple}     [Hoover Institution](https://www.hoover.org/research/fergusons-law)
 
 Refresh Treasury debt
 
 Treasury Debt to the Penny is fetched live in the browser. Other values
 are intentionally labeled as illustrative/reference values until the
 multi-source data pipeline is implemented.
-
-::: panel
-## Do not predict "when Treasuries will collapse": monitor the price of financing
+## Do Not Predict When Treasuries Will Collapse: Monitor the Price of Financing
 
 ### Abstract
 
@@ -245,8 +165,6 @@ or some combination.
 > The signal worth waiting for is not a "collapse date." It is a
 > persistent rise in the marginal price of debt, reinforced by worsening
 > fiscal capacity.
-
-::: panel
 ## Methodology
 
 1.  **Debt stock:** how large is the debt?
@@ -266,31 +184,27 @@ The score is a research framework, not an official risk measure or
 investment signal. Ferguson Limit is kept outside the composite because
 it measures strategic-fiscal capacity rather than marginal Treasury
 pricing.
-
-::: panel
 ## Authoritative sources
 
 -   [U.S. Treasury Fiscal
-    Data](https://fiscaldata.treasury.gov/){target="_blank"} --- debt,
+    Data](https://fiscaldata.treasury.gov/) --- debt,
     rates and fiscal data.
 -   [CBO 2026--2036 Budget and Economic
-    Outlook](https://www.cbo.gov/publication/62105){target="_blank"} ---
+    Outlook](https://www.cbo.gov/publication/62105) ---
     deficit, debt and interest baseline. CBO projects debt held by the
     public rising from 101% of GDP in 2026 to 120% in 2036, with net
     interest rising from 3.3% to 4.6% of GDP.
 -   [New York Fed Treasury Term
-    Premium](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs){target="_blank"}
+    Premium](https://www.newyorkfed.org/research/data_indicators/term-premia-tabs)
     --- term-premium estimates.
 -   [Treasury
-    TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system){target="_blank"}
+    TIC](https://home.treasury.gov/data/treasury-international-capital-tic-system)
     --- foreign portfolio flows and holdings.
 -   [Hoover Institution --- Ferguson's
-    Law](https://www.hoover.org/research/fergusons-law){target="_blank"}
+    Law](https://www.hoover.org/research/fergusons-law)
     --- primary institutional source for Ferguson's Law and the Ferguson
     Limit.
 -   [Ferguson's Law working
-    paper](https://www.hoover.org/sites/default/files/research/docs/fergusons-law.pdf){target="_blank"}
+    paper](https://www.hoover.org/sites/default/files/research/docs/fergusons-law.pdf)
     --- debt service, military spending and fiscal limits of power.
-
-::: footer
 research and education only; not investment advice.
